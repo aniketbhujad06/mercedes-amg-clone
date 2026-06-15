@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercedes-AMG G-Class | Luxury SUV | Mercedes-Benz India</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+    <header class="global-header">
+        <div class="navbar">
+            <div class="header-left">
+                <button class="menu-toggle" id="menuToggleBtn" aria-label="Open Navigation Menu">
+                    <i class="bi bi-list"></i>
+                </button>
+                <a href="index.html" class="brand-logo">
+                    <img src="assets/images/mercedes-logo.webp" alt="Mercedes-Benz Logo">
+                </a>
+            </div>
+
+            <div class="header-right">
+                <button class="header-icon-link" aria-label="Wishlist">
+                    <i class="bi bi-heart"></i>
+                </button>
+                <button class="header-icon-link" aria-label="Search">
+                    <i class="bi bi-search"></i>
+                </button>
+                <button class="header-icon-link" aria-label="Account Login">
+                    <i class="bi bi-person"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="menu-drawer" id="sideNavDrawer">
+        <button class="menu-drawer-close" aria-label="Close Navigation Menu">
+            <i class="bi bi-x"></i>
+        </button>
+        <div class="menu-drawer-logo">
+            <img src="assets/images/mercedes-logo.webp" alt="Mercedes-Benz Logo">
+        </div>
+        <ul class="menu-nav-links">
+            <li><a href="index.html" class="active"><i class="bi bi-chevron-right me-2"></i>Mercedes-AMG G-Class</a>
+            </li>
+            <li><a href="test-drive.html"><i class="bi bi-chevron-right me-2"></i>Book a Test Drive</a></li>
+            <li><a href="finance.html"><i class="bi bi-chevron-right me-2"></i>Financial Services</a></li>
+        </ul>
+    </nav>
+
+    <div class="sub-header">
+        <div class="sub-header-container">
+            <div class="sub-header-title">Mercedes-AMG G-Class</div>
+            <div class="sub-header-actions">
+                <a href="#" class="location-picker" data-bs-toggle="offcanvas" data-bs-target="#locationOffcanvas">
+                    <i class="bi bi-geo-alt-fill"></i> Select location to see prices
+                </a>
+                <a href="#enquiry-section" class="sub-header-btn sub-header-btn-outline">Make an enquiry</a>
+                <a href="test-drive.html" class="sub-header-btn sub-header-btn-solid">Book test drive</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+
+        <section class="hero-section">
+            <div class="hero-bg-accent"></div>
+            <div class="hero-container">
+
+                <div class="hero-content">
+                    <span class="hero-badge">The Legend Grows</span>
+                    <div class="color-name-display"
+                        style="font-family: var(--font-body); font-style: italic; color: #a1a6ab; margin-bottom: 20px;">
+                        MANUFAKTUR Obsidian Black Metallic</div>
+
+                    <h1 class="hero-title">Mercedes-AMG G 63</h1>
+                    <p class="hero-subtitle">The original off-road icon, combined with high-octane Mercedes-AMG racing
+                        performance and absolute hand-crafted luxury.</p>
+
+                    <div class="hero-actions">
+                        <a href="test-drive.html" class="hero-btn hero-btn-primary">Book a Test Drive</a>
+                        <a href="finance.html" class="hero-btn hero-btn-secondary">Explore Finance</a>
+                    </div>
+                </div>
+
+                <div class="hero-image-container">
+                    <div class="hero-image-wrapper">
+                        <img src="assets/images/g63-black.avif" class="hero-main-car" alt="Mercedes-AMG G-Class"
+                            id="customizerCarImage">
+                    </div>
+                </div>
+
+                <div class="swatches-list">
+                </div>
+
+            </div>
+        </section>
+
+        <section class="recommendations-section">
+            <div class="recommendations-header">
+                <h2 class="recommendations-title">Our Recommendations</h2>
+            </div>
+
+            <div class="recommendations-grid">
+                <div class="rec-card">
+                    <div class="rec-card-img-wrapper">
+                        <img src="assets/images/recommendation-g63.webp" alt="Mercedes-AMG G63" class="rec-card-img">
+                    </div>
+                    <div class="rec-card-content">
+                        <h3 class="rec-card-title">Mercedes-AMG G63</h3>
+                        <p class="rec-card-text">The rise of thrill.</p>
+                        <a href="#" class="rec-card-btn">Learn more</a>
+                    </div>
+                </div>
+
+                <div class="rec-card">
+                    <div class="rec-card-img-wrapper">
+                        <img src="assets/images/recommendation-s63.webp" alt="Mercedes-AMG S63 E Performance"
+                            class="rec-card-img">
+                    </div>
+                    <div class="rec-card-content">
+                        <h3 class="rec-card-title">Mercedes-AMG Carbon-Fibre Package</h3>
+                        <p class="rec-card-text">Elements in carbon fibre design visually enhance the exterior.</p>
+                        <div class="d-flex align-items-center gap-4">
+                            <a href="test-frive.html" class="rec-card-btn">Find available cars</a>
+                            <a href="#" class="text-white text-decoration-none fw-bold" style="font-size: 14px;">Learn
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="highlights-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <div>
+                        <span class="section-label">Design & Performance</span>
+                        <h2 class="section-title">Highlights of the G-Class</h2>
+                    </div>
+                    <div class="slider-controls">
+                        <button class="slider-btn slider-btn-prev" aria-label="Previous Highlight"><i
+                                class="bi bi-chevron-left"></i></button>
+                        <button class="slider-btn slider-btn-next" aria-label="Next Highlight"><i
+                                class="bi bi-chevron-right"></i></button>
+                    </div>
+                </div>
+
+                <div class="highlights-wrapper">
+                    <div class="highlights-track">
+
+                        <div class="highlight-card">
+                            <div class="highlight-img-container">
+                                <img src="assets/images/highlight-engine.avif" alt="V8 Biturbo Engine"
+                                    class="highlight-img">
+                            </div>
+                            <div class="highlight-card-body">
+                                <div class="highlight-card-tag">Performance</div>
+                                <h3 class="highlight-card-title">AMG V8 Biturbo Engine</h3>
+                                <p class="highlight-card-desc">Handcrafted 4.0-liter V8 engine delivering 585
+                                    horsepower, pushing the G 63 from 0 to 100 km/h in just 4.5 seconds.</p>
+                            </div>
+                        </div>
+
+                        <div class="highlight-card">
+                            <div class="highlight-img-container">
+                                <img src="assets/images/highlight-projector.webp" alt="Mercedes Star Projector"
+                                    class="highlight-img">
+                            </div>
+                            <div class="highlight-card-body">
+                                <div class="highlight-card-tag">Lighting</div>
+                                <h3 class="highlight-card-title">Surround Projection</h3>
+                                <p class="highlight-card-desc">Dynamic door lights project the Mercedes-Benz or AMG
+                                    emblem onto the pavement, welcoming you with prestige.</p>
+                            </div>
+                        </div>
+
+                        <div class="highlight-card">
+                            <div class="highlight-img-container">
+                                <img src="assets/images/highlight-wheels.webp" alt="AMG 22-inch Wheels"
+                                    class="highlight-img">
+                            </div>
+                            <div class="highlight-card-body">
+                                <div class="highlight-card-tag">Design</div>
+                                <h3 class="highlight-card-title">22" AMG Cross-Spoke Wheels</h3>
+                                <p class="highlight-card-desc">Sleek matte black forged alloy wheels with high-sheen rim
+                                    flanges, framing standard high-performance red brake calipers.</p>
+                            </div>
+                        </div>
+
+                        <div class="highlight-card">
+                            <div class="highlight-img-container">
+                                <img src="assets/images/highlight-cockpit.jpg" alt="Cockpit luxury dashboard"
+                                    class="highlight-img">
+                            </div>
+                            <div class="highlight-card-body">
+                                <div class="highlight-card-tag">Comfort</div>
+                                <h3 class="highlight-card-title">Widescreen Cockpit</h3>
+                                <p class="highlight-card-desc">Dual 12.3-inch high-resolution displays present driving
+                                    details and ambient settings under an elegant glass panel.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tech-section">
+            <div class="section-container">
+                <span class="section-label">Specifications</span>
+                <h2 class="section-title">Technical Data</h2>
+
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <div class="tech-value tech-val-hp">585 HP + 20 HP</div>
+                        <div class="tech-label">Maximum Power</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-value">3,982 cc</div>
+                        <div class="tech-label">Engine Size</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-value">220 km/h</div>
+                        <div class="tech-label">Top Speed</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="enquiry-section" id="enquiry-section">
+            <div class="enquiry-container">
+                <div class="text-center mb-5">
+                    <span class="section-label">Enquiry</span>
+                    <h2 class="section-title">Request a Callback</h2>
+                    <p class="text-light mt-2">Provide your contact details below, and our brand specialists will
+                        coordinate a customized showroom visit or virtual presentation.</p>
+                </div>
+
+                <form class="validated-form" novalidate>
+                    <div class="form-group">
+                        <label class="form-label" for="salutation">Salutation *</label>
+                        <select class="form-control" id="salutation" required>
+                            <option value="">Choose Salutation</option>
+                            <option value="Mr.">Mr.</option>
+                            <option value="Ms.">Ms.</option>
+                            <option value="Mrs.">Mrs.</option>
+                            <option value="Dr.">Dr.</option>
+                        </select>
+                        <div class="invalid-feedback">Please select your salutation.</div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label" for="firstName">First Name *</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Enter your first name"
+                                required>
+                            <div class="invalid-feedback">First name is required.</div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="lastName">Last Name *</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Enter your last name"
+                                required>
+                            <div class="invalid-feedback">Last name is required.</div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label" for="email">Email Address *</label>
+                            <input type="email" class="form-control" id="email" placeholder="example@domain.com"
+                                required>
+                            <div class="invalid-feedback">Please enter a valid email address.</div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="phone">Phone Number *</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="+91 XXXXX XXXXX" required>
+                            <div class="invalid-feedback">Please enter a valid phone number.</div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label" for="enquiryModel">Selected Model *</label>
+                            <select class="form-control" id="enquiryModel" required>
+                                <option value="Mercedes-AMG G 63" selected>Mercedes-AMG G 63</option>
+                                <option value="Mercedes-Benz G 400 d">Mercedes-Benz G 400 d</option>
+                                <option value="Mercedes-Benz G-Class AMG Line">Mercedes-Benz G-Class AMG Line</option>
+                            </select>
+                            <div class="invalid-feedback">Model selection is required.</div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="preferredDealer">Preferred Dealer *</label>
+                            <select class="form-control" id="preferredDealer" required>
+                                <option value="">Choose Nearest Dealer</option>
+                                <option value="Dealer Mumbai">Shaman Wheels - Mumbai</option>
+                                <option value="Dealer Delhi">T&T Motors - New Delhi</option>
+                                <option value="Dealer Bengaluru">Sundaram Motors - Bengaluru</option>
+                                <option value="Dealer Chennai">Trans Car - Chennai</option>
+                            </select>
+                            <div class="invalid-feedback">Please choose your preferred dealership.</div>
+                        </div>
+                    </div>
+
+                    <div class="form-group mt-3">
+                        <label class="form-checkbox">
+                            <input type="checkbox" id="consentCheckbox" required>
+                            <span>I hereby consent to receive dynamic pricing updates, campaigns, and newsletters from
+                                Mercedes-Benz India via phone calls, email, and digital messaging services in accordance
+                                with the Privacy Policy. *</span>
+                        </label>
+                        <div class="invalid-feedback" style="margin-left: 25px;">You must agree to the communications
+                            consent before submitting.</div>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Submit Enquiry</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div>
+                <h4 class="footer-column-title">Popular Models</h4>
+                <ul class="footer-links">
+                    <li><a
+                            href="https://www.mercedes-benz.co.in/passengercars/models/saloon/c-class/overview.html?abtest-new_extint=target&srsltid=AfmBOopZZS3h0OM7IvXWiNgTsAu8xQ3e5tBnXja2hq_MsRfZgouZDFFR">Mercedes-Benz
+                            C-Class</a></li>
+                    <li><a
+                            href="https://www.mercedes-benz.co.in/passengercars/models/saloon/e-class/overview.html?abtest-new_extint=target&srsltid=AfmBOopZZS3h0OM7IvXWiNgTsAu8xQ3e5tBnXja2hq_MsRfZgouZDFFR">Mercedes-Benz
+                            E-Class</a></li>
+                    <li><a
+                            href="https://www.mercedes-benz.co.in/passengercars/models/saloon/s-class/overview.html?abtest-new_extint=target&srsltid=AfmBOopZZS3h0OM7IvXWiNgTsAu8xQ3e5tBnXja2hq_MsRfZgouZDFFR">Mercedes-Benz
+                            S-Class</a></li>
+                    <li><a href="index.html">Mercedes-AMG G-Class</a></li>
+                    <li><a
+                            href="https://www.mercedes-benz.co.in/passengercars/models/maybach/s-class/overview.html?abtest-new_extint=target&srsltid=AfmBOopZZS3h0OM7IvXWiNgTsAu8xQ3e5tBnXja2hq_MsRfZgouZDFFR">Mercedes-Maybach
+                            S-Class</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="footer-column-title">Buy Vehicles</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Online Store</a></li>
+                    <li><a href="test-drive.html">Book a Test Drive</a></li>
+                    <li><a href="finance.html">Financial Services</a></li>
+                    <li><a href="#">Used Car Locator</a></li>
+                    <li><a href="#">Corporate Sales</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="footer-column-title">Customer Owners</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Mercedes me Connect</a></li>
+                    <li><a href="#">Service Bookings</a></li>
+                    <li><a href="#">Roadside Assistance</a></li>
+                    <li><a href="#">Accessories Portal</a></li>
+                    <li><a href="#">Warranty Programs</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="footer-column-title">Company</h4>
+                <ul class="footer-links">
+                    <li><a href="#">About Mercedes-Benz India</a></li>
+                    <li><a href="#">Career Opportunities</a></li>
+                    <li><a href="#">Press Releases</a></li>
+                    <li><a href="#">Sustainability Commitment</a></li>
+                    <li><a href="#">Social Responsibility</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div>&copy; 2026 Mercedes-Benz India Group. All rights reserved.</div>
+            <div class="footer-legal-links">
+                <a href="https://www.mercedes-benz.co.in/passengercars/content-pool/tool-pages/legal/cookies.html">Cookie
+                    Settings</a>
+                <a href="https://www.mercedes-benz.co.in/passengercars/brand/privacy.html">Privacy Statement</a>
+                <a href="https://www.mercedes-benz.co.in/passengercars/content-pool/tool-pages/legal/legal-notice.html">Legal
+                    Disclaimer</a>
+                <a
+                    href="https://www.mercedes-benz.co.in/passengercars/services/service-warranty-terms-and-conditions.html">Terms
+                    & Conditions</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" id="locationOffcanvas"
+        aria-labelledby="locationOffcanvasLabel" style="width: 500px; border-left: 1px solid rgba(255,255,255,0.1);">
+        <div class="offcanvas-header" style="border-bottom: 1px solid rgba(255,255,255,0.1);">
+            <h5 class="offcanvas-title" id="locationOffcanvasLabel" style="font-weight: 700; letter-spacing: 1px;">
+                Mercedes-Benz Showrooms in India</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body p-0">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d14800000!2d78.96288!3d20.593684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smercedes%20benz%20showrooms%20india!5e0!3m2!1sen!2sus!4v1700000000000"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <!-- https://www.mercedes-benz.co.in/passengercars/models/suv/g-class/amg.html?abtest-new_extint=target#contact -->
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
