@@ -1,4 +1,2 @@
 ﻿# mercedes-amg-clone
-# mercedes-amg-clone
-# mercedes-amg-clone
-https://aniketbhujad06.github.io/mercedes-amg-clone/
+
